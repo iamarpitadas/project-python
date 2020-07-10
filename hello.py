@@ -6,9 +6,10 @@ print("Area of the circle",a)
 
 
 # print file extension
-filename=input('Enter a filename: ')
+filename=input("Enter a filename :")
 index=0
 for i in range(len(filename)):
-    if filename[i]=='.':
-       index=i
-print(filename[index+1: ])
+    if filename[i]==".":
+        index=i
+        print("The extension of this file is:")
+        print(filename[index+1: ])
