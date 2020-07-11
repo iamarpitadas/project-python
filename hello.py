@@ -8,3 +8,12 @@ a=3.14159*r**2
 
 print("Area of the circle: ",a)
 
+
+# File extension
+
+filename= input("input of the Filename:")
+
+extn=filename.split(".")
+
+print("The extension of the file is: "+ str(extn[-1]))
+
